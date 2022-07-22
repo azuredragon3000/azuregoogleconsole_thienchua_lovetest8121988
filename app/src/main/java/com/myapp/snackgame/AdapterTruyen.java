@@ -12,6 +12,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.myapp.mylibrary.DB.ItemTruyen;
+
 import java.util.ArrayList;
 
 public class AdapterTruyen extends RecyclerView.Adapter<AdapterTruyen.MViewHolder>{
@@ -47,7 +49,6 @@ public class AdapterTruyen extends RecyclerView.Adapter<AdapterTruyen.MViewHolde
         holder.imageView.setOnClickListener(v->{
             listenerItem.click(index,activity);
         });
-       // holder.imageView.setImageDrawable();
     }
 
     @Override

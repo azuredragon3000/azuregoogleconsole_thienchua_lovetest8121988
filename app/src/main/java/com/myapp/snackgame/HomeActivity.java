@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.myapp.mylibrary.DB.ItemTruyen;
 import com.myapp.mylibrary.ads.AdsInterstitial;
 import com.myapp.mylibrary.recycleview.GridSpacingItemDecoration;
 
@@ -34,12 +35,10 @@ public class HomeActivity extends AppCompatActivity {
         ListenerItem listener = new ListenerItem() {
             @Override
             public void click(int index, Activity activity) {
-
                 Intent intent = new Intent(getApplicationContext(), ContentActivity.class);
                 intent.putExtra("Position",index);
                 startActivity(intent);
                 adsInterstitial.showAds(activity);
-                //Toast.makeText(getApplicationContext(), "clicked item index is " + index, Toast.LENGTH_LONG).show();
             }
         };
 
@@ -47,7 +46,6 @@ public class HomeActivity extends AppCompatActivity {
         AdapterTruyen adapterTruyen = new AdapterTruyen(this,arrayList,listener,this);
         rc.setAdapter(adapterTruyen);
         rc.setLayoutManager(new GridLayoutManager(this,2));
-        //GridLayoutManager gridLayoutManager = new GridLayoutManager(this);
         if (value == Configuration.ORIENTATION_PORTRAIT) {
             spanCount = 2;
         }
@@ -62,7 +60,7 @@ public class HomeActivity extends AppCompatActivity {
 
     private ArrayList<ItemTruyen> getItems() {
 
-        TruyenPhatGiaoDB truyenPhatGiaoDB = ((SubApp) this.getApplication()).getTruyenPhatGiaoDB();
+        TruyenChuaGS truyenPhatGiaoDB = ((SubApp) this.getApplication()).getTruyenThienChua();
         ArrayList<ItemTruyen> arr = truyenPhatGiaoDB.getArrayItem();
         return arr;
     }
