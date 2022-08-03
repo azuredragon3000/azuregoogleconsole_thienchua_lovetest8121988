@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.myapp.snackgame">
+    package="com.myapp.lovetest8121988">
 
     <application
         android:name=".SubApp"
@@ -30,7 +30,7 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-8404443559572571~5990932702" />
+            android:value="ca-app-pub-8404443559572571~1733068046" />
 
     </application>
 

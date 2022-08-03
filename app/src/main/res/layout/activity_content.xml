@@ -12,6 +12,10 @@
             android:id="@+id/toolbar"
             layout="@layout/toolbar" />
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/god2"
+            android:layout_height="100dp"/>
         <TextView
             android:layout_marginTop="20dp"
             android:id="@+id/noidung"

@@ -1,4 +1,4 @@
-package com.myapp.snackgame;
+package com.myapp.lovetest8121988;
 
 import org.junit.Test;
 
