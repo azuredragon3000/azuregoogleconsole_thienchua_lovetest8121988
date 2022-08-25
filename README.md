@@ -1,5 +1,23 @@
+Screenshot_20220721_140424.png  
+<img src="https://github.com/azuredragon3000/googleconsole_thienchua_lovetest8121988/blob/master/Screenshot_20220721_140424.png" />   
+Screenshot_20220721_140448.png  
+<img src="https://github.com/azuredragon3000/googleconsole_thienchua_lovetest8121988/blob/master/Screenshot_20220721_140448.png" />   
+Screenshot_20220721_140500.png  
+<img src="https://github.com/azuredragon3000/googleconsole_thienchua_lovetest8121988/blob/master/Screenshot_20220721_140500.png" />   
+Screenshot_20220803_215717.png  
+<img src="https://github.com/azuredragon3000/googleconsole_thienchua_lovetest8121988/blob/master/Screenshot_20220803_215717.png" />   
+Screenshot_20220803_215737.png  
+<img src="https://github.com/azuredragon3000/googleconsole_thienchua_lovetest8121988/blob/master/Screenshot_20220803_215737.png" />   
+Screenshot_20220803_215753.png  
+<img src="https://github.com/azuredragon3000/googleconsole_thienchua_lovetest8121988/blob/master/Screenshot_20220803_215753.png" />   
+app/src/main/ic_launcher-playstore.png  
+<img src="https://github.com/azuredragon3000/googleconsole_thienchua_lovetest8121988/blob/master/app/src/main/ic_launcher-playstore.png" />   
+app/src/main/res/drawable-v24  
+<img src="https://github.com/azuredragon3000/googleconsole_thienchua_lovetest8121988/blob/master/app/src/main/res/drawable-v24" />   
 app/src/main/res/drawable-v24/ic_launcher_foreground.xml  
 <img src="https://github.com/azuredragon3000/googleconsole_thienchua_lovetest8121988/blob/master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" />   
+app/src/main/res/drawable  
+<img src="https://github.com/azuredragon3000/googleconsole_thienchua_lovetest8121988/blob/master/app/src/main/res/drawable" />   
 app/src/main/res/drawable/chuagiesu.png  
 <img src="https://github.com/azuredragon3000/googleconsole_thienchua_lovetest8121988/blob/master/app/src/main/res/drawable/chuagiesu.png" />   
 app/src/main/res/drawable/custom_background.xml  
